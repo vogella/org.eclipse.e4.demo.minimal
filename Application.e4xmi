@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_UBLScIA_Ed-ARoTbg-msxg">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_UOFhgIBJEd-ARoTbg-msxg" elementId="main" selectedElement="_-1RUYIBJEd-ARoTbg-msxg" label="" width="640" height="480">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_-1RUYIBJEd-ARoTbg-msxg" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="__lfQYIBJEd-ARoTbg-msxg">
+        <children xsi:type="basic:Part" xmi:id="_B3vm4IBKEd-ARoTbg-msxg" contributionURI="platform:/plugin/org.eclipse.e4.demo.minimal/org.eclipse.e4.demo.minimal.Part" label="Part"/>
+      </children>
+    </children>
+    <mainMenu xmi:id="_u006IIBKEd-ARoTbg-msxg">
+      <children xsi:type="menu:Menu" xmi:id="_wDyAkIBKEd-ARoTbg-msxg" label="File">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_1DVq0IBKEd-ARoTbg-msxg" label="Exit" contributionURI="platform:/plugin/org.eclipse.e4.demo.minimal/org.eclipse.e4.demo.minimal.ExitHandler"/>
+      </children>
+    </mainMenu>
+  </children>
+  <bindingTables xmi:id="_vfuJUI6EEd-cHokURl356g" elementId="org.eclipse.ui.context.dialogAndWindow" bindingContextId="org.eclipse.ui.contexts.dialogAndWindow"/>
+</application:Application>
